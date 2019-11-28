@@ -130,7 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="include\Impl\VectorImpl.h" />
+    <ClInclude Include="include\MathConstants.h" />
     <ClInclude Include="include\MathFunctions.h" />
     <ClInclude Include="include\Matrix.h" />
     <ClInclude Include="include\ToString.h" />
@@ -138,10 +138,6 @@
     <ClInclude Include="include\Vector2.h" />
     <ClInclude Include="include\Vector3.h" />
     <ClInclude Include="include\Vector4.h" />
-    <ClInclude Include="MathConstants.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\ForceLibGeneration.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -42,16 +42,8 @@
     <ClInclude Include="include\Vector2.h">
       <Filter>Header Files\Vector</Filter>
     </ClInclude>
-    <ClInclude Include="include\Impl\VectorImpl.h">
-      <Filter>Header Files\Vector\Impl</Filter>
-    </ClInclude>
-    <ClInclude Include="MathConstants.h">
+    <ClInclude Include="include\MathConstants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\ForceLibGeneration.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
